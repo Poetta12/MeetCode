@@ -13,7 +13,7 @@ function handleQrClick(url) {
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">Pedro t'offre la MeetCard !</h1>
     <h3>
       Je ne voulais pas te déranger, mais tu me plaît. Ça serait cool de faire connaissance 😇. Je te laisse mon contact 😊.
     </h3>
