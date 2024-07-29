@@ -1,18 +1,10 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': '/src',
-    },
-  },
   build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: '/src/main.js',
-    },
-  },
+    outDir: 'dist', // Assurez-vous que les fichiers de build vont dans le dossier 'dist'
+  }
 })
