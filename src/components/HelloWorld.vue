@@ -46,7 +46,7 @@ h1 {
   font-size: 1.5rem;
   position: relative;
   top: -10px;
-  color: whitesmoke;
+  color: orange;
 }
 
 h3 {
