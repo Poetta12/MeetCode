@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import './assets/main.css'
 
-export default defineConfig({
-  plugins: [vue()],
-  base: './', // Utilisez './' pour les déploiements GitHub Pages
-})
+import { createApp } from 'vue'
+import App from './App.vue'
+
+createApp(App).mount('#app')
