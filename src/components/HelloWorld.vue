@@ -29,6 +29,11 @@ function handleQrClick(url) {
     <div id="telegram">
       <img src="/QR/telegram_qr.png" alt="telegram QR"  @click="handleQrClick(telegramUrl)">
     </div>
+
+    <div id="credits">
+      <p>Created by <a href="https://www.poettatech.fr" target="_blank">poetta@<span style="font-weight:bold;">poettatech®© </span></a>2024</p>
+    </div>
+
   </div>
 </template>
 
@@ -39,6 +44,10 @@ img {
   max-width: 100%;
   border-radius: 20px;
   cursor: pointer;
+}
+
+#credits p{
+  font-size: .8rem;
 }
 
 h1 {
