@@ -15,7 +15,7 @@ function handleQrClick(url) {
   <div class="greetings">
     <h1>Pedro t'offre la MeetCard !</h1>
     <h3>
-      Je ne voulais pas te déranger, mais tu me plaît. Ça serait cool de faire connaissance 😇. Je te laisse mon contact 😊.
+      Je ne voulais pas être ce mec qui surgit de nulle part, mais... tu as réussi à me faire sourire comme un gosse avec une glace ! 😁 Si ça te dit de papoter, je serais ravi de faire plus ample connaissance. Voici mon contact, et promis, je ne fais pas de blagues sur les glaces ! 🍦😉
     </h3>
     <p>
       Pour lui répondre:
@@ -42,6 +42,7 @@ img {
 }
 
 h1 {
+  text-align: center;
   font-weight: 400;
   font-size: 1.5rem;
   position: relative;
